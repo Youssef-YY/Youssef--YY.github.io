@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#Head,
+#btns {
+  margin-top: 8px;
+}
+.header,
+.Register,
+#btns,
+.Table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+.Table {
+  background-color: rgba(83, 133, 143, 0.438);
+}
+.header {
+  font-size: 24px;
+  color: rgb(161, 24, 24);
+  text-align: center;
+  border: solid 1px black;
+  border-radius: 20px;
+  background-color: rgba(83, 133, 143, 0.664);
+  font-weight: bolder;
+  padding: 8px 0px;
+}
+.Register {
+  background-color: rgba(83, 133, 143, 0.459);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: solid black 1px;
+  border-radius: 13px;
+  height: 300px;
+}
+.info {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+label,
+select,
+input {
+  width: 210px;
+}
+
+label,
+.btns {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#btns {
+  display: flex;
+  justify-content: center;
+}
+.btns {
+  height: 30px;
+  width: 170px;
+
+  background-color: rgba(83, 133, 143, 0.568);
+  border-radius: 10px;
+
+  margin: 50px 20px 10px 20px;
+}
+
+table {
+  border-spacing: 5px;
+  margin-top: 10px;
+  border: 1px black solid;
+  border-radius: 8px;
+  width: 100%;
+}
+th {
+  text-align: left;
+}
+td {
+  border: 1px solid black;
+  height: 20px;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+}
+
+tr {
+  height: 40px;
+}
+
+.del {
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  width: 500px;
+}
+#Del {
+  margin-top: 5px;
+  padding-top: 5px;
+  height: 60px;
+  width: 500px;
+  background-color: rgba(211, 38, 38, 0.925);
+  font-weight: bolder;
+  color: rgba(255, 255, 255, 0.945);
+}
+.deletebutton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 30px;
+  background-color: rgba(83, 133, 143, 0.568);
+  border-radius: 10px;
+  font-weight: bold;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register table</title>
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="Head" class="header">
+        Register
+    </div>
+
+    <div class="Register">
+        <form id="infoform" action="">
+            <div class="info">
+                <label for="name">Name</label>
+                <input placeholder="Enter your name" type="text" name="name" id="name">
+            </div>
+            <div class="info">
+                <label for="age">Age </label>
+                <input placeholder="Enter your age " type="text" name="age" id="age" min="18" max="60">
+
+            </div>
+            <div class="info">
+                <label for="courses">Courses</label>
+                <select multiple name="courses" id="courses">
+                    <optgroup label="FrontEnd">
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="JS">JS</option>
+                    </optgroup>
+
+                    <optgroup label="Programming Language">
+                        <option value="C">C</option>
+                        <option value="C++">C++</option>
+                        <option value="C#">C#</option>
+                    </optgroup>
+                    <optgroup label="BackEnd">
+                        <option value="Python">Python</option>
+                        <option value=".Net">.Net</option>
+                        <option value="PHP">PHP</option>
+                    </optgroup>
+                </select>
+            </div>
+        </form>
+        <div id="btns">
+            <input type="submit" class="btns" value="Add" name="" id="add">
+            <button id="del" class="btns">Delete</button>
+        </div>
+    </div>
+    <div class="header">
+        Table Data
+    </div>
+    <div class="Table">
+        <table id="Table">
+            <thead>
+                <tr>
+
+                    <th class="c1">
+                        Name
+                    </th>
+                    <th class="c2">
+                        Age
+                    </th>
+                    <th class="c3">
+                        Courses
+                    </th>
+                    <th class="c4">
+                        Actions
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+
+
+            </tbody>
+
+
+        </table>
+    </div>
+    <div class="del">
+
+        <button id="Del">DELETE ALL</button>
+    </div>
+    <div id="mydiv">
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
